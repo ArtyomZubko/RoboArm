@@ -277,7 +277,7 @@ void MainWindow::recordedSendTimerSlot() //воспроизведение сце
 }
 
 
-void MainWindow::on_connectButton_clicked()
+void MainWindow::on_connectButton_clicked() //кнопка установки соединения с выбранным портом
 {
     serial_init();
 
